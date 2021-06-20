@@ -9,7 +9,7 @@ export async function getChapter(query: string) {
   const file = filenames.find(name => slug(path.parse(name).name) === query);
   const contents = await fs.readFile(path.join(dataDir, file), 'utf8');
 
-  const concepts = contents.split('# ').map(ch => {
+  const concepts = contents.split(/^# /gim).map(ch => {
     const a = ch.split('\n');
     return {
       title: a.shift().trim(),

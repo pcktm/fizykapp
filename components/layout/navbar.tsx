@@ -25,11 +25,10 @@ export const Navbar = () => {
         <div className="container">
           <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-
               <Link href="/">
                   <div className="is-clickable navbar-item pr-5 with-icon">
-                    <span className="icon"><i className="ri-meteor-line"></i></span>
-                    <span className="title is-5 icon-text">Fizykapp</span>
+                    <span className="icon">🙈</span>
+                    <span className="title is-5 icon-text">Dyskretnapp</span>
                   </div>
               </Link>
               
@@ -40,7 +39,6 @@ export const Navbar = () => {
                   </div>
                 </Link>
               </div>
-
             </div>
           </nav>
         </div>

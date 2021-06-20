@@ -12,7 +12,7 @@ export default function Home() {
         <LinkCard
           title="Zagadnienia"
           subtitle="Lista zagadnień i odpowiedzi"
-          href="/chapter"
+          href="/chapter" 
         />
 
         <LinkCard

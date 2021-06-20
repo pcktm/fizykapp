@@ -25,7 +25,7 @@ function Fizykapp({ Component, pageProps }) {
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
       />
       <link rel="manifest" href="/manifest.json" />
-      <title>Fizykapp</title>
+      <title>Dyskretnapp</title>
     </Head>
 
     <Navbar />

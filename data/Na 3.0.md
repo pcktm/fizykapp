@@ -218,6 +218,11 @@ Rodzinę wszystkich klas abstrakcji, oznaczamy $A/_\sim$ i nazywamy zbiorem ilor
 
 # Homomorfizm
 Funkcja odwzorowująca jedną algebrę ogólną w drugą, zachowująca przy tym odpowiadające sobie działania, jakie są zdefiniowane w obu algebrach.
+Niech dane beda grupy $(A, \otimes)$ i $(B, \bullet)$. Odwzorowanie $H: A \to B$ nazywamy homomorfizmem grupy A w B jezeli spelnia warunek:
+
+$$
+\forall_{a,b \in A} H(a\otimes b) = a \bullet b
+$$
 
 # Izomorfizm
 Odwzorowanie pomiędzy dwiema przestrzeniami matematycznymi, zachowujące wszystkie relacje i funkcje. Między tymi obiektami zachodzi izomorfizm — nie da się ich odróżnić na podstawie ich własności.
